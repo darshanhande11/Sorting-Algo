@@ -29,7 +29,7 @@ public class BucketSort {
 
         for (int i = 0; i < size; i++) {
             b[i] = new ArrayList<Float>();
-        }
+        }//copying element. 
 
         for (int i = 0; i < size; i++) {
             int index = (int) (a[i]*size);
